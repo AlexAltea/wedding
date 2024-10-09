@@ -30,8 +30,105 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  wedding_name: "Jack & Jill's Wedding"
-  wedding_couple_names: 'Jack & Jill'
-  wedding_date: 'Saturday, 1 January 2000'
-  wedding_location: 'South Pole'
-  photo_credits: 'Photo Credits: Pexels'
+  add_to_calendar: "Add to Calendar"
+  rsvp_today: "RSVP TODAY!"
+  the_plan: "The Plan"
+  the_plan_timeline_header: "Order of the day"
+  the_plan_timeline_data:
+    - "<strong>TBD</strong> &mdash; Pickup guests who need transport"
+    - "<strong>5pm</strong> &mdash; Guest arrive"
+    - "<strong>5:30pm</strong> &mdash; Wedding ceremony"
+    - "<strong>6:30pm</strong> &mdash; Cocktails, photos, and canapés"
+    - "<strong>8pm</strong> &mdash; Dinner and drinks"
+    - "<strong>10:30pm</strong> &mdash; Partying, drinking, dancing!"
+    - "<strong>2:30am</strong> &mdash; Bar closes"
+    - "The <strong>dress code</strong> is semi-formal."
+  the_plan_menu_header: "Menu"
+  the_plan_menu_data:
+    - "<strong>Starter</strong> &mdash; [REDACTED]"
+    - "<strong>Intermezzo</strong> &mdash; [REDACTED]"
+    - "<strong>Main</strong> &mdash; [REDACTED]"
+    - "<strong>Dessert</strong> &mdash; [REDACTED]"
+    - "We will do our best to accommodate the menu for those with allergies or certain dietary preferences, as communicated to us or indicated on the RSVP form."
+  the_plan_rsvp_header: "RSVP"
+  the_plan_rsvp_data:
+    - "Please RSVP as soon as possible so we know who is coming and can ensure we have a spot for you (and your +1!), if you can make it."
+    - "If you ultimately cannot attend, please let us know as well."
+    - "The guest list closes on <strong>[REDACTED]</strong>."
+  the_venue_q_arrival: "How do I get there?"
+  the_venue_a_arrival: "<p>We can arrange transportation for guests from [REDACTED] to the venue, if requested in the RSVP form. The journey will take approximately ~30 minutes depending on traffic and the pickup point.</p>"
+  the_venue_q_accomodation: "Don't live around?"
+  the_venue_a_accomodation: "<p>We recommend choosing a hotel in [REDACTED] city, as there are better options and self-ordered or organized transport back to [REDACTED] after the party is possible.</p>"
+  the_venue: "The Venue"
+  wedding_invite: "Please join us at our wedding"
+  wedding_couple_names: '[REDACTED] & [REDACTED]'
+  wedding_date: '[REDACTED]'
+  wedding_location: '[REDACTED]'
+  wedding_name: "[REDACTED] & [REDACTED]'s Wedding"
+  wedding_time: '5:00pm &ndash; late'
+  when_where: 'When & Where'
+
+  # RSVP form
+  form_new: "Please enter your email address to begin. We'll send you an email with important information once you have RSVP'd."
+  form_new_exists: "Welcome Back"
+  form_new_exists_info:
+    - "It looks like you've already registered your RSVP, so we've sent you an email with a link that you can use to update it."
+    - "Please check your <tt>%{email}</tt> email including spam folders!"
+    - "If you don't receive the email, please %{contact_link}."
+  form_contactus: "contact us"
+  form_about_you: "About You"
+  form_plusones_info: "Please let us know below if you're bringing someone else to the wedding. Children are also very welcome."
+  form_plusones_none: "No plus ones added yet. Flying solo."
+  form_confirm: "Confirm"
+  form_confirm_transport: "Transport"
+  form_confirm_notattending: "Sorry to hear you won't be joining us!"
+  form_confirm_comments: "Other Comments?"
+  form_confirm_comments_footer: "Anything else you'd like to let us know?"
+  form_your_details: "Your Details"
+  form_yes: "Yes"
+  form_no: "No"
+  form_areyousure: "Are you sure?"
+  form_none: "(None)"
+  form_none_plusone: "(None &mdash; just you)"
+  form_required: "Required"
+  form_continue: "Continue"
+  form_cancel: "Cancel"
+  form_edit: "Edit"
+  form_remove: "Remove"
+  form_sending: "Sending..."
+  form_loading: "Loading..."
+  form_removing: "Removing..."
+  form_add_plusone: "Add Plus One"
+  form_complete: "Complete RSVP"
+  form_complete_thanks: "Thanks!"
+  form_complete_info:
+    - "We've sent an email confirmation to <tt>%{email}</tt>."
+    - "If you don't receive the email within a few minutes, please check your spam folder, and if it's not there %{contact_link}."
+    - "The email contains a link that you can use to update your RSVP later if you need to."
+  form_complete_home: "Back to the Home Page"
+  guest_first_name: "First Name"
+  guest_last_name: "Last Name"
+  guest_question_attending: "Will you be joining us?"
+  guest_question_transport: "Do you need transportation?"
+  guest_question_diet: "Dietary Preferences"
+  guest_question_diet_footer: "For example, any allergies or intolerances."
+  guest_question_songs: "Song Suggestions"
+  guest_question_songs_footer: "We're crowd sourcing our playlist! Choose some songs you'd like to hear."
+  guest_plusones: "Plus Ones"
+  guest_child: "Child"
+  guest_child_age: "12 or under"
+
+  # Emails
+  email_hello: "Hello"
+  email_dear: "Dear"
+  email_subject_confirm: "RSVP Confirmation"
+  email_subject_return: "Your RSVP"
+  email_confirm_attending_opening: "<p>We look forward to seeing you!</p><p>The address is:</p>"
+  email_confirm_attending_modify: "<h3>Your RSVP</h3><p>If you would like to view or update your RSVP, you can use the following link to get back to it:</p>"
+  email_confirm_attending_questions: "<h3>Questions and answers</h3><p>Please check %{website} for more information, or you can reply to this email.</p>"
+  email_confirm_attending_questions_website: "our wedding webdsite"
+  email_confirm_notattending_opening: "We're sorry to hear you can't make it. If you change your mind, you can update your RSVP with the link below:"
+  email_confirm_notattending_closing: "We hope to see you another time!"
+  email_return_opening: "You recently entered your email address to RSVP on"
+  email_return_modify: "If you would like to view or update your RSVP, you can use the following link to get back to it:"
+  email_return_closing: "If you have any questions, you can ask us by reply."

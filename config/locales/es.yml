@@ -1,0 +1,134 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+es:
+  add_to_calendar: "Añadir al calendario"
+  rsvp_today: "¡CONFIRMAR ASISTENCIA!"
+  the_plan: "El Plan"
+  the_plan_timeline_header: "Programa de boda"
+  the_plan_timeline_data:
+    - "<strong>TBD</strong> &mdash; Recogida de aquellos invitados que necesiten transporte"
+    - "<strong>17:00h</strong> &mdash; Llegada de invitados"
+    - "<strong>17:30h</strong> &mdash; Ceremonia de boda"
+    - "<strong>18:30h</strong> &mdash; Aperitivos, fotos y canapés"
+    - "<strong>20:00h</strong> &mdash; Cena y bebida"
+    - "<strong>22:30h</strong> &mdash; ¡Baile y fiesta!"
+    - "<strong>02:30h</strong> &mdash; Cierre del bar"
+    - "El <strong>código de vestimenta</strong> es semi-formal."
+  the_plan_menu_header: "Menú"
+  the_plan_menu_data:
+    - "<strong>Primero</strong> &mdash; [REDACTED]"
+    - "<strong>Entreplato</strong> &mdash; [REDACTED]"
+    - "<strong>Segundo</strong> &mdash; [REDACTED]"
+    - "<strong>Postre</strong> &mdash; [REDACTED]"
+    - "Haremos todo lo posible para adaptar el menú para aquellas personas con alergias o ciertas preferencias alimenticias, según nos lo comuniquéis o indiquéis en el formulario para confirmar asistencia."
+  the_plan_rsvp_header: "Confirmaciones"
+  the_plan_rsvp_data:
+    - "Por favor, confirmad vuestra asistencia lo antes posible para saber quién viene, y asegurarnos de tener un sitio para tí (¡y tu +1!), si podeis venir."
+    - "Si finalmente no podéis asistir, decídnoslo igualmente."
+    - "La lista de asistentes se cierra el <strong>[REDACTED]</strong>."
+  the_venue_q_arrival: "¿Cómo llego allí?"
+  the_venue_a_arrival: "<p>Podemos organizar transporte desde [REDACTED] hasta la finca, para aquellos invitados que lo soliciten al confirmar asistencia. El trayecto será de aprox. ~30 minutos dependiendo del tráfico y el punto de recogida.</p><p>Disponemos de parking en la finca, así que también es posible venir en coche.</p>"
+  the_venue_q_accomodation: "¿No vives en [REDACTED]?"
+  the_venue_a_accomodation: "<p>Recomendamos elegir un hotel en [REDACTED] ciudad, dado que hay mejores opciones de alojamiento y se puede regresar desde la finca tanto con transporte propio como transporte organizado por nosotros.</p>"
+  the_venue: "La Finca"
+  wedding_invite: "Nos gustaría invitarte a nuestra boda"
+  wedding_couple_names: '[REDACTED] & [REDACTED]'
+  wedding_date: '[REDACTED]'
+  wedding_location: '[REDACTED]'
+  wedding_name: "Boda de [REDACTED] & [REDACTED]"
+  wedding_time: '17:00h &ndash; tarde'
+  when_where: 'Cuándo y Dónde'
+
+  # RSVP form
+  form_new: "Por favor, introduce tu dirección de correo electrónico. Sólo usaremos tu email para enviarte información importante si confirmas tu asistencia a la boda."
+  form_new_exists: "Bienvenido de nuevo"
+  form_new_exists_info:
+    - "Parece que ya te has registrado, así que te hemos enviado un email con un link para que puedas actualizar tu información."
+    - "Por favor, comprueba tu email <tt>%{email}</tt>, incluyendo carpetas de spam."
+    - "Si no recibes el email, por favor %{contact_link}."
+  form_contactus: "contáctanos"
+  form_about_you: "Información"
+  form_plusones_info: "Por favor dinos si quieres traer a alguien más a la boda. Por supuesto, los niños también son bienvenidos."
+  form_plusones_none: "Aún no has añadido a ningún acompañante."
+  form_confirm: "Confirmar"
+  form_confirm_transport: "Transporte"
+  form_confirm_notattending: "¡Sentimos que no puedas venir!"
+  form_confirm_comments: "¿Otros comentarios?"
+  form_confirm_comments_footer: "¿Algo más que nos quieras decir?"
+  form_your_details: "Información"
+  form_yes: "Sí"
+  form_no: "No"
+  form_areyousure: "¿Estás seguro?"
+  form_none: "(Ninguna)"
+  form_none_plusone: "(Nadie)"
+  form_required: "Requerido"
+  form_continue: "Continuar"
+  form_cancel: "Cancelar"
+  form_edit: "Modificar"
+  form_remove: "Eliminar"
+  form_sending: "Enviando..."
+  form_loading: "Cargando..."
+  form_removing: "Eliminando..."
+  form_add_plusone: "Añadir acompañante"
+  form_complete: "Enviar"
+  form_complete_thanks: "¡Gracias!"
+  form_complete_info:
+    - "Hemos enviado un email de confirmación a <tt>%{email}</tt>."
+    - "Si no recibes el email en los próximos minutos, por favor comprueba tu carpeta de spam y si no estuviese allí, %{contact_link}."
+    - "El email contiene un link para actualizar tus datos más adelante, si lo necesitases."
+  form_complete_home: "Volver a la página principal"
+  guest_first_name: "Nombre"
+  guest_last_name: "Apellido(s)"
+  guest_question_attending: "¿Vendrás a la boda?"
+  guest_question_transport: "¿Necesitas transporte a la finca?"
+  guest_question_diet: "Preferencias alimenticias"
+  guest_question_diet_footer: "Por ejemplo, alergias o intolerancias alimenticias."
+  guest_question_songs: "Sugerencias de canciones"
+  guest_question_songs_footer: "¡Buscamos ideas para la playlist! Sugiere canciones que quieras escuchar."
+  guest_plusones: "Acompañantes"
+  guest_child: "Niño/a"
+  guest_child_age: "hasta 12 años"
+
+  # Emails
+  email_hello: "Hola"
+  email_dear: "Hola"
+  email_subject_confirm: "Confirmación de asistencia"
+  email_subject_return: "Información de asistencia"
+  email_confirm_attending_opening: "<p>¡Nos alegramos que vengas y esperamos verte pronto!</p><p>La dirección es:</p>"
+  email_confirm_attending_modify: "<h3>Confirmación de asistencia</h3><p>Si quieres ver o modificar tus datos o el de tus acompañantes, puedes volver al formulario de confirmación a través del siguiente link:</p>"
+  email_confirm_attending_questions: "<h3>Preguntas e información</h3><p>Comprueba %{website} para más información, o responde a este correo electrónico.</p>"
+  email_confirm_attending_questions_website: "nuestra web"
+  email_confirm_notattending_opening: "Sentimos que no puedas venir. Si cambias de planes, puedes confirmar tu asistencia a través del siguiente link:"
+  email_confirm_notattending_closing: "¡Esperamos verte en otra ocasión!"
+  email_return_opening: "Recientemente has introducido tu correo electrónico para confirmar tu asistencia en"
+  email_return_modify: "Para ver o modificar tus datos o el de tus acompañantes, puedes usar el siguiente link para acceder al formulario de confirmación:"
+  email_return_closing: "Si tienes cualquier duda, no dudes en preguntar respondiendo a este correo electrónico."

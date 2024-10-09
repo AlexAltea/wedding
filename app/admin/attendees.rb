@@ -17,6 +17,7 @@ ActiveAdmin.register Attendee do
     column :diet
     column :notes
     column :child
+    column "Transport", :corrected_transport
     column :updated_at
   end
 

@@ -1,3 +1,16 @@
+# Wedding
+
+Fork of https://github.com/jdleesmiller/wedding. Changes:
+
+- Multi-lingual support for English, German and Spanish.
+- Guests may request transport to the venue.
+- Minor font/marging/padding changes.
+- Using built-in Postgres database in production and persist data in `./db_data`.
+
+Original `README.md` file follows below.
+
+---
+
 # Rails App for Weddings and Similar Events
 
 ![CI status](https://github.com/jdleesmiller/wedding/workflows/CI/badge.svg)

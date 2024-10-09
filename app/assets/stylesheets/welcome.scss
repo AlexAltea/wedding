@@ -12,7 +12,7 @@
     color: rgba(255, 255, 255, 0.95);
   }
 
-  h1 {
+  .wedding-invite {
     margin-top: 200px;
   }
 
@@ -73,6 +73,8 @@
 }
 
 #welcome-index-wedding-plan {
+  padding-bottom: 5 * $spacer;
+
   h2 {
     padding-top: 3 * $spacer;
     padding-bottom: $spacer;
@@ -86,11 +88,10 @@
 
 #welcome-index-footer {
   background-color: #faebe3;
-  margin-top: 5 * $spacer;
 
   #welcome-index-footer-cta {
     padding-top: 8 * $spacer;
-    padding-bottom: 3 * $spacer;
+    padding-bottom: 8 * $spacer;
   }
 
   #welcome-index-footer-credits {
@@ -101,4 +102,23 @@
       color: rgba(28, 13, 10, 0.4);
     }
   }
+}
+
+.language-link {
+  color: #DDD !important;
+  font-size: 1.25rem;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.welcome-body {
+  background-color: #ddd;
+}
+
+.welcome-container {
+  background-color: #fff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }

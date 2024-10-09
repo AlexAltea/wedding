@@ -10,7 +10,8 @@ class GuestMailerPreview < ActionMailer::Preview
         last_name: 'Doe',
         email: 'john.doe@example.com',
         token: 'abcdefghiklmnop',
-        attending: true
+        attending: true,
+        transport: false
       )
     )
   end
@@ -23,7 +24,8 @@ class GuestMailerPreview < ActionMailer::Preview
         last_name: 'Doe',
         email: 'john.doe@example.com',
         token: 'abcdefghiklmnop',
-        attending: false
+        attending: false,
+        transport: false
       )
     )
   end

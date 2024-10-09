@@ -1,0 +1,134 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+de:
+  add_to_calendar: "Zum Kalender hinzufügen"
+  rsvp_today: "JETZT ZUSAGEN!"
+  the_plan: "Der Plan"
+  the_plan_timeline_header: "Tagesablauf"
+  the_plan_timeline_data:
+    - "<strong>TBD</strong> &mdash; Abholen der Gäste, die Transport benötigen"
+    - "<strong>17:00 Uhr</strong> &mdash; Ankunft der Gäste"
+    - "<strong>17:30 Uhr</strong> &mdash; Hochzeitszeremonie"
+    - "<strong>18:30 Uhr</strong> &mdash; Vorspeisen, Fotos und Canapés"
+    - "<strong>20:00 Uhr</strong> &mdash; Abendessen und Getränke"
+    - "<strong>22:30 Uhr</strong> &mdash; Getränke, Tanzen und Party!"
+    - "<strong>02:30 Uhr</strong> &mdash; Bar schließt"
+    - "Der <strong>Dresscode</strong> ist Semi-Formal."
+  the_plan_menu_header: "Menü"
+  the_plan_menu_data:
+    - "<strong>Vorspeise</strong> &mdash; [REDACTED]"
+    - "<strong>Zwischengang</strong> &mdash; [REDACTED]"
+    - "<strong>Hauptgang</strong> &mdash; [REDACTED]"
+    - "<strong>Dessert</strong> &mdash; [REDACTED]"
+    - "Wir werden unser Bestes tun, das Menü für Personen mit Allergien oder bestimmten Wünschen anzupassen, wie im RSVP-Formular von euch angegeben."
+  the_plan_rsvp_header: "Zusagen"
+  the_plan_rsvp_data:
+    - "Bitte gebt so schnell wie möglich Bescheid, ob ihr kommt, damit wir sicherstellen können, dass wir einen Platz für euch (und euren +1!) reserviert haben."
+    - "Wenn ihr letztendlich nicht kommen könnt, lasst es uns bitte auch wissen."
+    - "Die Gästeliste schließt am <strong>[REDACTED]</strong>."
+  the_venue_q_arrival: "Wie komme ich dorthin?"
+  the_venue_a_arrival: "<p>Wir können für die Gäste einen Transport von [REDACTED] zur Location organisieren, wenn dies im Formular angefragt wird. Die Fahrt dauert je nach Verkehr und Abholort etwa ~30 Minuten.</p>"
+  the_venue_q_accomodation: "Du wohnst nicht in [REDACTED]?"
+  the_venue_a_accomodation: "<p>Wir empfehlen, ein Hotel in der Stadt [REDACTED] zu wählen, da es dort bessere Optionen gibt und ein selbstbestellter oder von uns organisierter Transport zurück nach [REDACTED] nach der Feier möglich ist.</p>"
+  the_venue: "Die Location"
+  wedding_invite: "Wir laden Euch herzlich zu unserer Hochzeit ein"
+  wedding_couple_names: '[REDACTED] & [REDACTED]'
+  wedding_date: '[REDACTED]'
+  wedding_location: '[REDACTED]'
+  wedding_name: "[REDACTED]s & [REDACTED]' Hochzeit"
+  wedding_time: '17:00 Uhr &ndash; Spät'
+  when_where: 'Wann und Wo'
+
+  # RSVP form
+  form_new: "Bitte gib deine E-Mail-Adresse ein, um zu beginnen. Wir werden dir eine E-Mail mit wichtigen Informationen senden, sobald du deine Zusage gemacht hast."
+  form_new_exists: "Willkommen zurück"
+  form_new_exists_info:
+    - "Es sieht so aus, als hättest du bereits deine Zusage registriert. Wir haben dir eine E-Mail mit einem Link geschickt, den du zur Aktualisierung der Daten nutzen kannst."
+    - "Bitte überprüfe deine <tt>%{email}</tt> E-Mail Inbox, inklusive Spam-Ordner!"
+    - "Falls du die E-Mail nicht erhältst, bitte %{contact_link}."
+  form_contactus: "kontaktiere uns"
+  form_about_you: "Information"
+  form_plusones_info: "Bitte lass uns wissen, ob du jemanden zur Hochzeit mitbringen möchtest. Kinder sind auch herzlich willkommen."
+  form_plusones_none: "Noch keine Plus-Ones hinzugefügt."
+  form_confirm: "Bestätigen"
+  form_confirm_transport: "Transport"
+  form_confirm_notattending: "Schade, dass du nicht dabei sein kannst!"
+  form_confirm_comments: "Weitere Kommentare?"
+  form_confirm_comments_footer: "Gibt es noch etwas, das du uns mitteilen möchtest?"
+  form_your_details: "Deine Details"
+  form_yes: "Ja"
+  form_no: "Nein"
+  form_areyousure: "Bist du sicher?"
+  form_none: "(Keine)"
+  form_none_plusone: "(Keine &mdash; nur du)"
+  form_required: "Pflichtfeld"
+  form_continue: "Weiter"
+  form_cancel: "Abbrechen"
+  form_edit: "Bearbeiten"
+  form_remove: "Entfernen"
+  form_sending: "Wird gesendet..."
+  form_loading: "Wird geladen..."
+  form_removing: "Wird entfernt..."
+  form_add_plusone: "Begleitung hinzufügen"
+  form_complete: "RSVP abschließen"
+  form_complete_thanks: "Danke!"
+  form_complete_info:
+    - "Wir haben eine Bestätigungs-E-Mail an <tt>%{email}</tt> gesendet."
+    - "Falls du die E-Mail nicht innerhalb weniger Minuten erhältst, überprüfe bitte deinen Spam-Ordner und falls sie auch dort nicht ist, %{contact_link}."
+    - "Die E-Mail enthält einen Link, den du nutzen kannst, um deine Zusage später zu aktualisieren."
+  form_complete_home: "Zurück zur Startseite"
+  guest_first_name: "Vorname"
+  guest_last_name: "Nachname"
+  guest_question_attending: "Wirst du dabei sein?"
+  guest_question_transport: "Brauchst du einen Transport?"
+  guest_question_diet: "Ernährungs-präferenzen"
+  guest_question_diet_footer: "Zum Beispiel, Allergien und Unverträglichkeiten."
+  guest_question_songs: "Song-Vorschläge"
+  guest_question_songs_footer: "Wir stellen unsere Playlist zusammen! Wähle einige Songs aus, die du hören möchtest."
+  guest_plusones: "Begleitung"
+  guest_child: "Kind"
+  guest_child_age: "12 oder jünger"
+
+  # Emails
+  email_hello: "Hallo"
+  email_dear: "Liebe/r"
+  email_subject_confirm: "RSVP Bestätigung"
+  email_subject_return: "Deine RSVP"
+  email_confirm_attending_opening: "<p>Wir freuen uns darauf, dich zu sehen!</p><p>Die Adresse lautet:</p>"
+  email_confirm_attending_modify: "<h3>Deine RSVP</h3><p>Falls du deine RSVP ansehen oder aktualisieren möchtest, kannst du den folgenden Link nutzen, um zurückzukehren:</p>"
+  email_confirm_attending_questions: "<h3>Fragen und Antworten</h3><p>Bitte besuche %{website} für weitere Informationen, oder du kannst auf diese E-Mail schreiben falls du weitere Fragen hast.</p>"
+  email_confirm_attending_questions_website: "unsere Hochzeits-Website"
+  email_confirm_notattending_opening: "Es tut uns leid zu hören, dass du nicht kommen kannst. Falls du deine Meinung änderst, kannst du deine RSVP mit dem folgenden Link aktualisieren:"
+  email_confirm_notattending_closing: "Wir hoffen, dich ein anderes Mal zu sehen!"
+  email_return_opening: "Du hast vor Kurzem deine E-Mail-Adresse eingegeben auf"
+  email_return_modify: "Falls du deine RSVP ansehen oder aktualisieren möchtest, kannst du den folgenden Link nutzen, um zurückzukehren:"
+  email_return_closing: "Falls du Fragen hast, kannst du uns durch eine Antwort darauf stellen."

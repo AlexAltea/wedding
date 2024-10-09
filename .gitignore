@@ -19,4 +19,7 @@
 .byebug_history
 .DS_Store
 
-/development.env
+/*.env
+
+# Ignore Postgres data
+db_data

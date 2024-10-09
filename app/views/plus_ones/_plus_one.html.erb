@@ -3,28 +3,28 @@
   <div class="card-body">
     <div class="row">
       <div class="col-md-4">
-        Dietary Preferences
+        <%= t :guest_question_diet %>
       </div>
       <div class="col-md-8">
         <% if plus_one.diet.present? %>
           <pre><%= plus_one.diet %></pre>
         <% else %>
-          <p>(None)</p>
+          <p><%= t :form_none %></p>
         <% end %>
       </div>
     </div>
     <div class="row">
       <div class="col-md-4">
-        Child
+         <%= t :guest_child %>
       </div>
       <div class="col-md-8">
-        <p><%= plus_one.child ? 'Yes' : 'No' %></p>
+        <p><%= plus_one.child ? t('form_yes') : t('form_no') %></p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12 text-right">
-        <%= link_to 'Edit', edit_guest_plus_one_path(plus_one.guest, plus_one), class: 'card-link', data: { disable_with: 'Loading...' } %>
-        <%= link_to 'Remove', guest_plus_one_path(plus_one.guest, plus_one), method: :delete, class: 'card-link', data: { disable_with: 'Removing...', confirm: 'Are you sure?' } %>
+        <%= link_to t('form_edit'), edit_guest_plus_one_path(plus_one.guest, plus_one), class: 'card-link', data: { disable_with: t('form_loading') } %>
+        <%= link_to t('form_remove'), guest_plus_one_path(plus_one.guest, plus_one), method: :delete, class: 'card-link', data: { disable_with: t('form_removing'), confirm: t('form_areyousure') } %>
       </div>
     </div>
   </div>

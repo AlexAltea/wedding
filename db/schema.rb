@@ -10,11 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180804103058) do
+ActiveRecord::Schema.define(version: 2024_07_07_000000) do
 
   # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
   enable_extension "citext"
+  enable_extension "plpgsql"
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -59,6 +59,7 @@ ActiveRecord::Schema.define(version: 20180804103058) do
     t.string "first_name"
     t.string "last_name"
     t.datetime "confirmed_at"
+    t.boolean "transport"
     t.index ["email"], name: "index_guests_on_email", unique: true
   end
 
@@ -83,6 +84,7 @@ ActiveRecord::Schema.define(version: 20180804103058) do
       guests.diet,
       guests.songs,
       guests.notes,
+      guests.transport,
       NULL::boolean AS child,
       guests.updated_at
      FROM guests
@@ -95,6 +97,7 @@ ActiveRecord::Schema.define(version: 20180804103058) do
       plus_ones.diet,
       NULL::character varying AS songs,
       NULL::character varying AS notes,
+      NULL::boolean AS transport,
       plus_ones.child,
       plus_ones.updated_at
      FROM (plus_ones
